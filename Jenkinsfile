@@ -3,7 +3,6 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        echo 'build success'
          parallel (
             "firstTask" : {
             echo 'build success1'
